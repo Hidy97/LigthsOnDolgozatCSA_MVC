@@ -14,12 +14,8 @@ class LampakView {
             let lampacska = new LampaElemView($("article"), index);
             lampacska.setSzin(this.#allapotlista[index])
         }
-
     }
 
-    getIndex(){
-        return this.index
-    }
 }
 
 export default LampakView;

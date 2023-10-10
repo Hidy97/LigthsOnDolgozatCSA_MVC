@@ -40,6 +40,10 @@ class LampaElemView{
         window.dispatchEvent(esemenyem)
     }
 
+
+    getIndex(){
+        return this.#index
+    }
   
 }
 
