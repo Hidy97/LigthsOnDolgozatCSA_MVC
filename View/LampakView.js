@@ -16,6 +16,10 @@ class LampakView {
         }
 
     }
+
+    getIndex(){
+        return this.index
+    }
 }
 
 export default LampakView;

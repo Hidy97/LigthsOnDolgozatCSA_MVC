@@ -3,7 +3,8 @@ class LampakModel {
     #allapot
     constructor() {
         this.#allapot = true;
-        this.#lista = [true, true, true, true, true, true, true, true, true]
+        //this.#lista = [true, true, true, true, true, true, true, true, true]
+        this.#lista = [false, false, false, false, false, false, false, false, false]
     }
 
     setAllapot(index){

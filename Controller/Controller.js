@@ -7,7 +7,8 @@ class Controller {
 
         $(window).on("bekapcs", (event) => {
             console.log("katt")
-            //this.LAMPAKVIEW.init();
+            this.LAMPAKMODEL.setAllapot(this.LAMPAKVIEW.getIndex());
+            
         })
     }
 }
