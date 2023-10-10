@@ -8,8 +8,8 @@ class Controller {
         $(window).on("bekapcs", (event) => {
             //console.log("katt")
             console.log(event.detail)
-            this.LAMPAKMODEL.setAllapot(event.detail.getIndex());
-            event.detail.setSzin(this.LAMPAKMODEL.getErtek());
+            //this.LAMPAKMODEL.setAllapot(event.detail.getIndex());
+            this.LAMPAKMODEL.setAllapot(event.detail.setSzin(this.LAMPAKMODEL.getErtek()));
         })
     }
 }

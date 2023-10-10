@@ -24,6 +24,7 @@ class LampaElemView{
             this.divElem.css("background-color","green")
             this.allapot = true
         }
+        return this.allapot
     }
 
     #htmlOsszerak(){
