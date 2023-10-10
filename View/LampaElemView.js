@@ -17,11 +17,11 @@ class LampaElemView{
 
     setSzin(allapot){
         if(allapot != false){
-            console.log("Állapot?")
+            //console.log("Állapot?")
             this.divElem.css("background-color","black")
             this.allapot = false
         }else{
-            this.divElem.css("background-color","black")
+            this.divElem.css("background-color","green")
             this.allapot = true
         }
     }

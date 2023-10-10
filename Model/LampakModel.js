@@ -2,13 +2,14 @@ class LampakModel {
     #lista
     #allapot
     constructor() {
-        this.#allapot = true;
+        this.#allapot = false;
         //this.#lista = [true, true, true, true, true, true, true, true, true]
         this.#lista = [false, false, false, false, false, false, false, false, false]
     }
 
     setAllapot(index){
-        if (this.#allapot === false) {
+        console.log("EZZEl állítja be az állapotot. Eléri?")
+        if (this.#allapot == false) {
             this.#allapot = true
         } else {
             this.#allapot = false
